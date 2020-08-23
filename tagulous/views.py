@@ -4,7 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.core.serializers.json import DjangoJSONEncoder
 from django.db.models.query import QuerySet
 from django.http import HttpResponse
-
+import json
 
 @login_required
 def autocomplete_login(*args, **kwargs):
